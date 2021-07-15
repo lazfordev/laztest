@@ -1,0 +1,179 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: #f7f7f7;
+  
+}
+#menu-ham{
+  font-size: 170%;
+  position: absolute;
+  top: 30px;
+  left: 310px;
+  cursor: pointer;
+  display: none;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+.links{
+  display: flex;
+  
+}
+#page{
+  padding: 10px 0px;
+  font-size: 130%;
+  
+}
+#page-now{
+  background: #4d0397;
+  color: white;
+}
+.page{
+  text-decoration: none;
+  color: #000;
+  
+  padding: 42px 50px;
+}
+.page:hover{
+  background: #4d0397;
+  color: #fff;
+  
+}
+
+.logo-page{
+  font-size: 240%;
+  cursor: pointer;
+  font-style: italic;
+  color: rgb(255, 0, 0);
+  text-shadow: 1px 1px rgb(255, 123, 0);
+}
+.nav{
+  display: grid;
+  grid-template-columns: repeat(2, 500px);
+  background: #fff;
+  height: 100px;
+  box-shadow: 1px 1px 5px 5px rgb(209, 208, 208);
+  padding: 25px 80px;
+}
+.container{
+  background-color: #fff;
+  width: 1100px;
+  height: 690px;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  left: 130px;
+  box-shadow: 1px 1px 5px 5px rgb(189, 186, 186);
+}
+/* nav */ 
+.match-day{
+  margin-top: 20px;
+  background: #4d0397;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+  
+}
+.match-day:hover{
+  background: rgb(116, 21, 21);
+}
+.img-ligue{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 2px solid #cac8c8;
+  position: relative;
+  left: 250px;
+}
+.ligues{
+  display: flex;
+  padding: 7px;
+  margin-top: 5px;
+  
+  width: 100%;
+  cursor: pointer;
+}
+.ligues:hover{
+background: rgb(187, 25, 25);
+color: #fff;
+}
+.ligue-name{
+  position: relative;
+  left: 220px;
+  top: 18px;
+  
+  
+}
+.ligue{
+  background-color: #f5f2f2;
+  width: 400px;
+  height: 485px;
+  float: right;
+  clear: both;
+  position: relative;
+  left: -40px;
+  top: 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 3px #c9c6c6;
+  
+  
+}
+#img-1{
+  margin-left: 5px;
+}
+#img-0{
+  margin-left: -6px;
+}
+#img-2{
+  margin-left: 5px;
+}
+#img-3{
+  margin-left: -2px;
+}
+#img-4{
+  margin-left: -13px;
+}
+
+.news-img{
+  width: 550px;
+  height: 470px;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.news{
+  position: absolute;
+  top: 0px;
+  left: -620px;
+  height: 485px;
+  background-color: #f5f2f2;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 3px #c9c6c6;
+}
+.news-name{
+  font-size: 130%;
+  position: absolute;
+  top: 8px;
+  left: 200px;
+  animation: both;
+  animation-name: train;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  color: red;
+}
+@keyframes train {
+  0%{
+    color: red;
+  }
+  25%{
+    color: #0f0;
+  }
+  50%{
+    color: #00f;
+  }
+}

@@ -1,0 +1,238 @@
+@media screen and (max-width: 375px){
+  #page{
+    font-size: 90%;
+    
+  }
+  .page{
+    text-decoration: none;
+    color: #000;
+    
+    padding: 35px 40px;
+  }
+  .nav{
+    
+    height: 80px;
+    
+  }
+  .links{
+    position: relative;
+    left: -80px;
+    top: -5px;
+    display: none;
+  }
+  .logo-page{
+    font-size: 210%;
+    cursor: pointer;
+    font-style: italic;
+    color: rgb(255, 0, 0);
+    text-shadow: 1px 1px rgb(255, 123, 0);
+    position: relative;
+    left: -220px;
+    top: -4px;
+    
+  }
+  #menu-ham{
+    display: block;
+  }
+  .match-day{
+    margin-top: 12px;
+    
+  }
+  .container{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    box-shadow: 1px 1px 5px 5px rgb(189, 186, 186);
+  }
+  .chaines{
+    display: grid;
+    grid-template-columns: repeat(1,360px);
+    margin-top: 30px;
+    margin-left: 9px;
+  }
+
+}
+
+/* width  from 365 to 550 */
+/* width  from 365 to 550 */
+@media screen and (min-width: 380px) and (max-width: 550px){
+  #page{
+    font-size: 90%;
+    
+  }
+  .page{
+    text-decoration: none;
+    color: #000;
+    
+    padding: 35px 40px;
+  }
+  .nav{
+    
+    height: 80px;
+    
+  }
+  .links{
+    position: relative;
+    left: -80px;
+    top: -5px;
+    display: none;
+  }
+  .logo-page{
+    font-size: 220%;
+    cursor: pointer;
+    font-style: italic;
+    color: rgb(255, 0, 0);
+    text-shadow: 1px 1px rgb(255, 123, 0);
+    position: relative;
+    left: -200px;
+    top: -4px;
+    
+  }
+  #menu-ham{
+    display: block;
+    margin-left: 40px;
+  }
+  .match-day{
+    margin-top: 12px;
+    
+  }
+  .container{
+    background-color: #fff;
+    width: 100%;
+    height: 900px;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    box-shadow: 1px 1px 5px 5px rgb(189, 186, 186);
+  }
+  .chaines{
+    display: grid;
+    grid-template-columns: repeat(1,395px);
+    margin-top: 30px;
+    margin-left: 9px;
+  }
+}
+/* width  from 560 to 800 */
+/* width  from 560 to 800 */
+/* width  from 560 to 800 */
+@media screen and (min-width: 560px) and (max-width: 800px){
+  #page{
+    font-size: 90%;
+    
+  }
+  .page{
+    text-decoration: none;
+    color: #000;
+    
+    padding: 35px 40px;
+  }
+  .nav{
+    
+    height: 80px;
+    
+  }
+  .links{
+    position: relative;
+    left: -80px;
+    top: -5px;
+    display: flex;
+  }
+  .logo-page{
+    font-size: 220%;
+    cursor: pointer;
+    font-style: italic;
+    color: rgb(255, 0, 0);
+    text-shadow: 1px 1px rgb(255, 123, 0);
+    position: relative;
+    left: -230px;
+    top: -4px;
+    
+  }
+  #menu-ham{
+    display: none;
+    
+  }
+  .match-day{
+    margin-top: 12px;
+    
+  }
+  .container{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    box-shadow: 1px 1px 5px 5px rgb(189, 186, 186);
+  }
+  .chaines{
+    display: grid;
+    grid-template-columns: repeat(2,375px);
+    margin-top: 30px;
+    margin-left: 9px;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1028px){
+  #page{
+    font-size: 110%;
+    
+  }
+  .page{
+    text-decoration: none;
+    color: #000;
+    
+    padding: 35px 50px;
+  }
+  .nav{
+    
+    height: 85px;
+    
+  }
+  .links{
+    position: relative;
+    left: -80px;
+    top: -5px;
+    display: flex;
+  }
+  .logo-page{
+    font-size: 220%;
+    cursor: pointer;
+    font-style: italic;
+    color: rgb(255, 0, 0);
+    text-shadow: 1px 1px rgb(255, 123, 0);
+    position: relative;
+    left: -30px;
+    top: -4px;
+    
+  }
+  #menu-ham{
+    display: none;
+    
+  }
+  .match-day{
+    margin-top: 12px;
+    
+  }
+  .container{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    box-shadow: 1px 1px 5px 5px rgb(189, 186, 186);
+  }
+  .chaines{
+    display: grid;
+    grid-template-columns: repeat(3,335px);
+    margin-top: 30px;
+    margin-left: 9px;
+  }
+}
